@@ -1,7 +1,7 @@
 <template>
 
  <ul id="breadcrumbs-one">
-  <li><a href="#">Inicio</a></li>
+  <li><a href="#"><i class="fas fa-home"></i></a></li>
   <li><a href="#">Decoracion</a></li>
   <li><a href="#">Interior</a></li>
   <li><a href="#">Salón</a></li>

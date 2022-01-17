@@ -1,15 +1,21 @@
 <template>
   <div class="top_menu">
     <div class="buscar">
-     
-      <input class="placeholder" type="text" placeholder=" Buscar" value="" />
+         
+        <form class="form-search">
+          <div class="input-group">
+            <input class="form-control form-text" maxlength="128" placeholder="Buscar" size="15" type="text" />
+            <span class="input-group-btn"><button class="btn btn-primary"><i class="fa fa-search fa-lg">&nbsp;</i></button></span>
+          </div>
+        </form>
+  
     </div>
 
     <div class="top_menu_link">
     
-        <a href="#">Mi Cuenta <i class="tiny material-icons" style="vertical-align: -8px;">account_box</i></a>
-        <a href="#">Registro <i class="large material-icons" style="vertical-align: -8px;">mode_edit</i></a>
-        <a href="#">Cesta <i class="large material-icons" style="vertical-align: -8px;">shopping_cart</i></a>
+        <a href="#">Mi Cuenta <i class="fas fa-user"></i></a>
+       
+        <a href="#">Cesta <i class="fas fa-shopping-cart"></i></a>
 
     </div>
   </div>
@@ -37,6 +43,7 @@ export default {};
 }
 .top_menu_link a {
   margin-left: 15px;
+  padding-left: 8px;
 
 }
 

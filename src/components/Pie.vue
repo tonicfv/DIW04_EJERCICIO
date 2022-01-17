@@ -1,15 +1,15 @@
 <template>
-   
+
     <section id="pie">
         <div class="made">
             <p> Made with Vue.js, Font Awesome, Materialize </p>
-            <span class="terms">Terms Privacy </span>
-             <a href="#"><span class="rs"><i class="fad fab fa-vuejs fa-2x" style="color: mediumseagreen;"></i></span></a>
-             <a href="#"><span class="rs"><i class="fad fab fa-html5 fa-2x" style="color: orangered;"></i></span></a>
-             <a href="#"><span class="rs"><i class="fad fab fa-css3 fa-2x" style="color: dodgerblue;"></i></span></a>
-            <a href="#"><span class="rs"><i class="fad fab fa-font-awesome-flag fa-2x" style="color: deepskyblue;"></i></span></a>
- 
-                    
+
+             <a href="#"><span class="rs"><i class="fad fab fa-vuejs fa-2x" style="color: white;"></i></span></a>
+             <a href="#"><span class="rs"><i class="fad fab fa-html5 fa-2x" style="color: white;"></i></span></a>
+             <a href="#"><span class="rs"><i class="fad fab fa-css3 fa-2x" style="color: white;"></i></span></a>
+             <a href="#"><span class="rs"><i class="fad fab fa-font-awesome-flag fa-2x" style="color: white;"></i></span></a>
+             <a href="#" class="terms"> <span class="terms">Terms Privacy </span></a>
+
         </div>
         <div class="contacto">
             <h6>Ponte en contacto con nosotros</h6>
@@ -147,7 +147,11 @@ address {
 .terms {
 margin:0 10px;
 display:block;
-padding: 10px;;
+padding: 10px;
+text-decoration: none;
+}
+.terms a {
+text-decoration: none;
 }
 
 
