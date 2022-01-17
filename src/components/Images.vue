@@ -1,10 +1,10 @@
 <template>
     <section id="imgMain">
         <div class="imgCtal">
-            <img class="imgLarge" v-bind:src="photos[0]" alt="Silla Ahelie">
+            <img class="imgLarge" v-bind:src="photos[0]" alt="Silla Ahelie" copyright="cc-by El gato">
         </div>
         <div class="slide">
-            <a @click="changeImg(1)"><img class="imgSmall" v-bind:src="photos[1]" alt="Silla Ahelie"></a>
+            <a @click="changeImg(1)"><img class="imgSmall" v-bind:src="photos[1]" alt="Silla Ahelie"> </a>
             <a @click="changeImg(2)"><img class="imgSmall" v-bind:src="photos[2]" alt="Silla Ahelie"></a>
             <a @click="changeImg(3)"><img class="imgSmall" v-bind:src="photos[3]" alt="Silla Ahelie"></a>
             <a @click="changeImg(4)"><img class="imgSmall" v-bind:src="photos[4]" alt="Silla Ahelie"></a>
